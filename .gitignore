@@ -10,3 +10,4 @@ src/generated-tests/java/*
 /webtest/node_modules/
 /webtest/reports/
 /.idea/*
+webtest/guides/test/util.js
