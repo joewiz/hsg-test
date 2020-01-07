@@ -234,4 +234,8 @@
 
 	<!-- Do nothing gets called from hsg-project 'ant all' -->
 	<target name="noop" depends="prepare"/>
+    <!-- more empty targets, to account for hardcoded targets in hsg-project's build.xml -->
+    <target name="xar" depends="prepare"/>
+    <target name="xar-dev" depends="prepare"/>
+    <target name="xar-prod" depends="prepare"/>
 </project>
